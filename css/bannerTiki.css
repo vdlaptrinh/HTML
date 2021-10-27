@@ -1,0 +1,47 @@
+.banner {
+    display:flex;
+    width: 989px;
+    height: 433px;
+    margin: 0 auto;
+}
+.banner .cot1 {
+    width: 194px;
+}
+.banner .cot1 .motHang{
+    display: flex;
+}
+.banner .cot1 .motHang .hangTrai {
+    width: 30px;
+    height: 30px;
+}
+.banner .cot1 .motHang .hangPhai a {
+    font-family: Segoe UI;
+    height: 30px;
+    line-height: 30px;
+}
+.banner .cot1 .motHang .hangPhai {
+    width: calc(100% - 30px);
+}
+.banner .cot2 {
+    width: 466px;
+}
+.banner .cot2 .trenCot2 {
+
+}
+.banner .cot2 .duoiCot2 {
+    display: flex;
+}
+.banner .cot2 .duoiCot2 .motNuaDC2 {
+    width: 50%;
+}
+.banner .cot3 {
+    width: calc(100% - 194px - 466px);
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner .cot3 .sauO {
+    width:50%;
+}
+.banner img {
+    width:100%
+}

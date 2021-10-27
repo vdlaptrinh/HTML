@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+}
+.bo {
+    width: 1235px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bo .slide {
+    width: 825px;
+}
+.bo .phai {
+    width: 400px;
+}
+img {
+    width: 100%;
+    border-radius: 10px ;
+}

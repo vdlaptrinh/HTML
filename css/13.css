@@ -1,0 +1,48 @@
+.khoiTrai .tren {
+    width: 625px;
+}
+img {
+    width: 100%;
+}
+.khoiTrai .tren a {
+    text-decoration: none;
+    font-family: Segoe UI;
+
+}
+.khoiTrai .tren a:hover {
+    color: rgb(6, 191, 216);
+}
+
+.khoiTrai .tren h3 {
+    font-size: 25px;
+    /* color: #000; */
+    margin: 0;
+}
+a.nguon, a.lienquan {
+    padding-right: 10px;
+}
+span.gio {
+    padding-right: 10px;
+    color: silver;
+}
+.khoiTrai .duoi {
+    width: 625px;
+    display: flex;
+    justify-content: space-between;
+}
+.khoiTrai .duoi ._3cot {
+    width: 32%;
+}
+.khoiTrai .duoi ._3cot h3 {
+    font-size: 17px;
+    margin: 0;
+    font-family: Segoe UI;
+}
+.khoiTrai .duoi ._3cot a {
+    text-decoration: none;
+    color: slateblue;
+}
+.khoiTrai .duoi ._3cot a:hover {
+    color: steelblue;
+
+}

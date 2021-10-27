@@ -1,0 +1,32 @@
+div.khoitin {
+    display: flex;
+    width: 700px;
+    border-bottom: 1px solid gray ;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+div.khoitin .trai {
+    width: 250px;
+    margin-right: 10px;
+}
+
+div.khoitin .phai {
+    width: 440px;
+}
+div.khoitin .phai h3 {
+    font-family: Segoe UI;
+    margin-top: 0;
+}
+div.khoitin .phai p {
+    font-family: Segoe UI;
+    font-size: 13px;
+}
+div.khoitin .phai a {
+    text-decoration: none;
+    font-weight: bold;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}

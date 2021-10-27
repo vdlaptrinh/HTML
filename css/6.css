@@ -1,0 +1,9 @@
+hr {
+    width: 700px;
+}
+hr.a {
+    width: 350px;
+}
+hr.b {
+    width: 100px;
+}

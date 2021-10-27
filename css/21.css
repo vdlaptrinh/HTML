@@ -1,0 +1,19 @@
+.khung {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background: url(../img/s3.png);
+    /* text-align: center; */
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.noiDung {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    background: silver;
+    color: red;
+    
+}

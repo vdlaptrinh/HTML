@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+body {
+    background-color: #f4f6f8;
+}
+.Polaris-Card {
+    width: 1373px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+.Polaris-Card__Header{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Segoe UI;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.Polaris-Card__Header h2{width: 50%; font-size: 15px;}
+.Polaris-Card__Header span{
+    width: 50%;
+    text-align: right;
+    font-size: 13px;
+}
+.Polaris-Card__Header span a {
+    text-decoration: none;
+}
+.menutren ul {
+    display: flex;
+    list-style: none;
+}
+.menutren ul li a {
+    text-decoration: none;
+    font-family: Segoe UI;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin: 0 10px;
+    border-bottom: 3px solid transparent;
+    display: block;
+}
+.menutren ul li a.active {
+    border-color: rgb(20, 50, 218) ;
+}
+.menutren ul li a:hover {
+    border-color: rgb(161, 161, 161) ;
+}
+/* hết phần menu */
+.Polaris-Card__Section {
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+
+}
+.Polaris-Card__Section a.khoinho {
+    display: flex;
+    width: 14.6%;
+    height: 32px;
+    margin: 10px;
+    text-decoration: none;
+    color: blue;
+    font-family: Segoe UI;
+    font-size: 13px;
+    align-items: center;
+    
+}
+.Polaris-Card__Section a.khoinho img.trai {
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 32px;
+    height: 32px;
+}

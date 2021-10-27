@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: cornsilk;
+}
+.banner {
+    width: 1240px;
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+.banner .slide {
+    width: 824px;
+}
+.banner .phai {
+    width: 408px;
+}
+img {
+    width: 100%;
+}

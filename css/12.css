@@ -1,0 +1,23 @@
+div.menuTren {
+    width: 100%;
+    background-color: #2FA1B3;
+}
+ul.menuNgang {
+    list-style: none;
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+}
+.menuNgang a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Segoe UI;
+    font-size: 13px;
+    color: white;
+    display: block;
+    padding: 6px;
+    transition: 0.4s;
+}
+.menuNgang a:hover {
+    background-color: rgb(84, 201, 206);
+}

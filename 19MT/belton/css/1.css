@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --font1: 'Oswald', sans-serif;
+    --size1: 48px;
+    --linehight1: 59px;
+    --font2: 'Amiri', sans-serif;
+    --size2: 22px;
+    --color2: #666;
+    --size3: 17px;
+
+}
+.banner_top {
+    background: url(../img/03.jpg) top center;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+.banner_top:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(left,#0000009e 0%, #01010100 50%, #00000069 100%);
+}
+
+.banner_top ._3cot {
+    display: flex;
+    position: absolute;
+    top:0px;
+    width: 100%;
+}
+.banner_top ._3cot ._1cot{
+    width: 33.33%;
+}
+.banner_top ._3cot ._1cot.cottrai{}
+.banner_top ._3cot ._1cot.cottrai a{ 
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+    padding: 20px 30px;
+}
+._3cot ._1cot.cottrai a:hover{color:#0345bf;}
+.banner_top ._3cot ._1cot.cotgiua{ text-align: center;}
+.banner_top ._3cot ._1cot.cotgiua img {
+    height: 40px;
+    padding-top: 20px;
+}
+
+.banner_top ._3cot ._1cot.cotphai{text-align:right;padding-right: 20px;padding-top: 10px;}
+.banner_top ._3cot ._1cot.cotphai a {
+    font-size: 25px;
+    color: white;
+    padding: 10px 5px;
+    display: inline-block;
+}
+.text_banner {
+    position: absolute;
+    width: 100%;
+    top:30%;
+    color: white;
+}
+.text_banner .content{
+    width: 1170px; 
+    margin: auto;
+}
+.text_banner .content .small{
+    font-family: var(--font2);
+    font-size: var(--size2);
+    margin-bottom: 10px;
+}
+.text_banner .content h1{
+    font-family: var(--font1);
+    font-size: var(--size1);
+    line-height: var(--linehight1);
+    color: white;
+    width: 50%;
+    font-weight: 500;
+}
+/* end css top */
+.content1 {
+    width: 1170px;
+    margin: auto;
+    padding: 80px 0px 50px 0px;
+    display: flex;
+    font-family: var(--font2);
+    font-size: var(--size2);
+    color:var(--color2);
+
+}
+.content1 .left {width: 35%;}
+.content1 .left span{
+    padding-top: 30px;
+    display: block;
+}
+.content1 .left h2{
+    font-family: var(--font1);
+    font-size: var(--size2);
+    width: 50%;
+    line-height: 33px;
+    color: #2b2b2b;
+
+}
+.content1 .right {width: 65%;}
+.content1 .right p{
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.wrap_content {
+    background-color: black;
+    /* width: 100%; */
+}
+.wrap_content .content2 {
+    width: 1170px;
+    margin: auto;
+    padding: 80px 0px;
+    font-family: var(--font2);
+    font-size: var(--size2);
+    color:var(--color2);
+}
+.wrap_content .content2 h3 {
+    text-align: center;
+    width: 100%;    
+    font-family: var(--font1);
+    font-size: 36px;
+    color:white;
+}
+.wrap_content .content2 ._2cot {
+    display: flex; 
+    width: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.wrap_content .content2 ._2cot ._1cot {
+    width: 580px;
+    height: 580px;
+    position: relative;
+    overflow: hidden;
+    /* box-sizing: border-box; */
+    margin-bottom: 10px;
+}
+.content2 ._2cot ._1cot img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    transition: 0.4s;
+}
+.content2 ._2cot ._1cot:hover img {
+    transform: scale(1.1);
+}
+.content2 ._2cot ._1cot .layer2 {
+    width: 580px;
+    height: 580px;
+    background-color: #0f0f0f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+.content2 ._2cot ._1cot:hover .layer2 {
+    opacity: 0.5;
+}
+.content2 ._2cot ._1cot .chuto {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: var(--font1);
+    position: absolute;
+    top: 260px;
+    left: 30px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.content2 ._2cot ._1cot .chunho {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: var(--font2);
+    position: absolute;
+    top: 305px;
+    left: 30px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.content2 ._2cot ._1cot:hover .chuto {
+    opacity: 1;
+    top: 255px;
+}
+.content2 ._2cot ._1cot:hover .chunho {
+    opacity: 1;
+    top: 300px;
+}
+
+.wrap_content .content2 a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+
+}
+.wrap_content .content2 a:before {
+    content: "\f178";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: relative;
+    left: -10px;
+    transition: 0.3s;
+}
+.wrap_content .content2 a:hover:before {
+    left: -5px;
+}
+
+.content3 {
+    width: 1170px;
+    margin: auto;
+    padding: 80px 0px;
+
+}
+.content3 ._6cot {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(209, 207, 207);
+}
+.content3 ._6cot ._1cot {
+    width: 16.5%;
+    margin: 0 30px;
+}
+.content3 ._6cot ._1cot img {
+    height: 107px;
+    opacity: 0.5;
+}
+.content3 ._6cot ._1cot img:hover {
+    opacity: 1;
+}
+.content3 ._3cot {
+    display: flex;
+    margin-top: 30px;
+}
+.content3 ._3cot h3 {
+    width: 25%;
+    text-align: left;
+    font-family: var(--font1);
+    font-size: 36px;
+    padding-top: 10px;
+
+}
+.content3 ._3cot p {
+    width: 50%;
+    font-family: var(--font2);
+    font-size: 20px;
+    color:var(--color2);
+    padding-top: 10px;
+}
+.content3 ._3cot a {
+    width: 25%;
+    text-align: right;
+    text-decoration: none;
+    font-family: var(--font2);
+    font-size: var(--size3);
+    color:var(--color2);
+    padding-top: 10px;
+}
+.content3 ._3cot a:before {
+    content: "\f178";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: relative;
+    left: -10px;
+    transition: 0.3s;
+}
+.content3 ._3cot a:hover:before {
+    left: -5px;
+}
+
+.wrap_content3 {
+    background-color: black;
+    height: 100px;
+}
+.content4 {
+    width: 1170px;
+    margin: auto;
+    padding: 40px 0px;
+    display: flex;
+    color: white;
+    font-size: var(--size3);
+}
+.content4 span {text-align: left;width: 50%;}
+.content4 span a {text-decoration: none; color: rgb(145, 143, 143);}
+.content4 p {text-align: right;width: 50%;}
+.content4 p .fa {color: yellowgreen;}

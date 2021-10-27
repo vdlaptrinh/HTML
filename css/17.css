@@ -1,0 +1,26 @@
+.content {
+    width: 900px;
+    background-color: coral;
+    color: darkblue;
+    padding: 20px;
+    margin: auto;
+    transition: 0.4s;
+}
+.content h3 {}
+@media (max-width: 992px) and (min-width:576px) {
+    .content {
+        width: 576px;
+        margin: auto;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+}
+@media (max-width: 575px) {
+    .content {
+        width: 300px;
+        margin: auto;
+        background-color: rgb(228, 141, 141);
+        color: rgb(255, 255, 255);
+    }
+}
+    
